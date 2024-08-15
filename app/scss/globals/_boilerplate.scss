@@ -30,3 +30,18 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+.header {
+	background-color: var(--accurate);
+	height: u.rem(100);
+}
+
+.brandlogo {
+	position: relative;
+	z-index: 999;
+	width: u.rem(175);
+	height: u.rem(150);
+	box-shadow: 0px 6px 6px var(--black);
+}
+
+

@@ -5,8 +5,12 @@
 	margin-inline: auto;
 	padding-block: 60px;
 
-	@include u.breakpoint(large) {
-		padding-block: 60px;
+	// @include u.breakpoint(large) {
+	// 	padding-block: 60px;
+	// }
+
+	&_brand {
+		padding-top: 0;
 	}
 }
 
