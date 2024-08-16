@@ -43,6 +43,12 @@ img {
 	box-shadow: 0px 6px 6px var(--black);
 }
 
+.vintage {
+	height: 100%;
+	overflow: hidden;
+	width: 50%;
+}
+
 .visually-hidden {
 	position: absolute;
 	left: -10000px;
