@@ -11,9 +11,9 @@
   position: relative;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%); 
-  margin-top: 0px; 
-  margin-bottom: 0px;
-  height: u.rem(600); 
+  margin-top: 0; 
+  margin-bottom: 0;
+  height: u.rem(550); 
   overflow: hidden; 
   clear: both;
 
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: u.rem(40);
+    // margin-bottom: u.rem(40);
     display: flex;
 
     @include u.breakpoint-down (small) {
@@ -51,10 +51,6 @@
       //   padding: 0 u.rem(20);
       // }
     }
-
-  &__image {
-
-  }
 
 	&__callout {
     display: flex;

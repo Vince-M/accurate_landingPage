@@ -12,6 +12,30 @@
 	&_brand {
 		padding-top: 0;
 	}
+
+	&__text {
+		max-width: u.rem(700);
+		width: u.rem(600);
+		margin-inline: auto;
+
+		@include u.breakpoint-down(small) {
+			width: 100%;
+		}
+
+		h2 {
+			font-family: var(--font-heading);
+			font-size: u.rem(28);
+			font-size: clamp(u.rem(28), u.rem(26.08) + 0.48vw, u.rem(32));
+			margin-bottom: u.rem(20);
+			line-height: u.rem(35.2);
+		}
+
+		h3 {
+			font-family: var(--font-heading);
+			font-size: u.rem(24);
+			margin-bottom: 0;
+		}
+	}
 }
 
 .fb-wrapper {
